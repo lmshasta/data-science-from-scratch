@@ -1,4 +1,32 @@
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
+# import numpy as np
+# import pandas as pd
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+
+# Data Management
+import numpy as np
+import pandas as pd
+
+# Visualization
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Machine learning
+from sklearn import model_selection
+from sklearn import preprocessing
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC, LinearSVC
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.linear_model import Perceptron
+from sklearn.linear_model import SGDClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
 topics to study
 #chapter 5, statistics, c
